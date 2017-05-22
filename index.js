@@ -4,6 +4,7 @@ var express = require('express'),
     io = require("socket.io").listen(server),
     nicknames = {};
 
+
 //server.listen(8000);
 server.listen(8050);
 app.get('/', function(req, res) {
